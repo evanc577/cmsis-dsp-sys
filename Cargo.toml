@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+cty = "0.2.2"
 
 [build-dependencies]
 bindgen = "0.71.1"

@@ -61,6 +61,8 @@ fn main() {
                 .to_str()
                 .unwrap()
         ))
+        .ctypes_prefix("cty")
+        .blocklist_function("^(__.*)$")
         .parse_callbacks(Box::new(ignored_macros))
         .parse_callbacks(Box::new(bindgen::CargoCallbacks::new()))
         .generate()
