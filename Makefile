@@ -15,10 +15,10 @@ CFLAGS := -mcpu=__MCPU__ --target=__TARGET__ \
  -mfloat-abi=hard
 
 # Path to CMSIS_CORE
-CMSIS_CORE := $(CMSIS_ROOT)/CMSIS_CORE
+CMSIS_CORE := ./CMSIS_6
 
 # Path to CMSIS_DSP
-CMSIS_DSP := $(CMSIS_ROOT)/CMSIS_DSP
+CMSIS_DSP := ./CMSIS-DSP
 
 # Path to CMSIS Core includes for Cortex-M
 # For low end Cortex-A, use Core_A
